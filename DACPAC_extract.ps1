@@ -1,8 +1,8 @@
 ﻿#Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 Set-Location C:
 
-$srvr = 'RDBSVC03DEV'
-$Db = 'ProviderEnterpriseServiceV2'
+$srvr = ServerName
+$Db = DatabaseName
 
 
 add-type -path "C:\Program Files (x86)\Microsoft SQL Server\110\DAC\bin\Microsoft.SqlServer.Dac.dll"
